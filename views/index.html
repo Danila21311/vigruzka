@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Загрузка файлов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Загрузить черт его возьми файл</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="filedata" required>
+            <button type="submit">Загрузить</button>
+        </form>
+        <p><a href="/list">Посмотреть все файлы</a></p>
+    </div>
+</body>
+</html>
